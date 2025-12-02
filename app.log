@@ -1,0 +1,141 @@
+2025-11-23 11:45:39,191 - __main__ - INFO - Создание заказа: user=7e9e6a20-9ce2-4a33-961d-9fe65a906761, sku=PRODUCT2, qty=1
+2025-11-23 11:45:39,193 - __main__ - INFO - Заказ создан: user=7e9e6a20-9ce2-4a33-961d-9fe65a906761, total=49.99
+2025-11-23 18:14:45,599 - __main__ - INFO - JSON Schema для Order успешно сгенерирована
+2025-11-23 18:14:48,601 - __main__ - INFO - Попытка создания заказа: email=ivan@example.com, items=2
+2025-11-23 18:14:48,605 - __main__ - INFO - Заказ 42413dfe-f02b-481d-9a08-7f13cd2a16a0 успешно создан: total=61.00, items=2
+2025-11-23 18:14:48,607 - __main__ - INFO - Заказ успешно создан: id=42413dfe-f02b-481d-9a08-7f13cd2a16a0, total=61.00
+2025-11-23 18:14:48,623 - __main__ - INFO - Создание заказа: user=1fc8f1d6-e6cf-463b-8bd6-a227a7c27fad, sku=PRODUCT2, qty=1
+2025-11-23 18:14:48,626 - __main__ - INFO - Заказ создан: user=1fc8f1d6-e6cf-463b-8bd6-a227a7c27fad, total=49.99
+2025-11-23 18:14:48,643 - __main__ - INFO - Попытка создания заказа: email=email, items=1
+2025-11-23 18:14:48,655 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+user_email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='email', input_type=str]
+2025-11-23 18:14:48,659 - __main__ - INFO - Попытка создания заказа: email=test@test.com, items=0
+2025-11-23 18:14:48,675 - __main__ - WARNING - Пустая корзина в заказе efbac27b-210c-4413-bc09-858a00010055
+2025-11-23 18:14:48,680 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+  Value error, Корзина не может быть пустой [type=value_error, input_value={'user_email': 'test@test.com', 'items': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-11-23 18:23:56,197 - __main__ - INFO - Попытка создания заказа: email=ivan@example.com, items=2
+2025-11-23 18:23:56,200 - __main__ - INFO - Заказ 8de094cb-eb2a-4dbf-b411-986d1a9e0b55 успешно создан: total=61.00, items=2
+2025-11-23 18:23:56,200 - __main__ - INFO - Заказ успешно создан: id=8de094cb-eb2a-4dbf-b411-986d1a9e0b55, total=61.00
+2025-11-23 18:23:56,202 - __main__ - INFO - Создание заказа: user=609fd08f-bead-4f16-805a-2f63da77f531, sku=PRODUCT2, qty=1
+2025-11-23 18:23:56,208 - __main__ - INFO - Заказ создан: user=609fd08f-bead-4f16-805a-2f63da77f531, total=49.99
+2025-11-23 18:23:56,213 - __main__ - INFO - Попытка создания заказа: email=email, items=1
+2025-11-23 18:23:56,220 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+user_email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='email', input_type=str]
+2025-11-23 18:23:56,222 - __main__ - INFO - Попытка создания заказа: email=test@test.com, items=0
+2025-11-23 18:23:56,233 - __main__ - WARNING - Пустая корзина в заказе b3b8873d-3398-4bc4-9dff-571befb9607b
+2025-11-23 18:23:56,235 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+  Value error, Корзина не может быть пустой [type=value_error, input_value={'user_email': 'test@test.com', 'items': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-11-23 18:24:08,444 - __main__ - INFO - Попытка создания заказа: email=ivan@example.com, items=2
+2025-11-23 18:24:08,447 - __main__ - INFO - Заказ 556942d6-0816-4ff2-bc01-5e98e11b3308 успешно создан: total=61.00, items=2
+2025-11-23 18:24:08,449 - __main__ - INFO - Заказ успешно создан: id=556942d6-0816-4ff2-bc01-5e98e11b3308, total=61.00
+2025-11-23 18:24:08,463 - __main__ - INFO - Создание заказа: user=96590842-419a-4afd-b0eb-d25625ce16dc, sku=PRODUCT2, qty=1
+2025-11-23 18:24:08,466 - __main__ - INFO - Заказ создан: user=96590842-419a-4afd-b0eb-d25625ce16dc, total=49.99
+2025-11-23 18:24:08,469 - __main__ - INFO - Попытка создания заказа: email=email, items=1
+2025-11-23 18:24:08,482 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+user_email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='email', input_type=str]
+2025-11-23 18:24:08,484 - __main__ - INFO - Попытка создания заказа: email=test@test.com, items=0
+2025-11-23 18:24:08,487 - __main__ - WARNING - Пустая корзина в заказе 9adc6d62-e39f-47e6-a569-340eab8b9003
+2025-11-23 18:24:08,503 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+  Value error, Корзина не может быть пустой [type=value_error, input_value={'user_email': 'test@test.com', 'items': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-11-23 18:24:25,312 - __main__ - INFO - Нормализовано имя: 'Иван Иванов' -> 'Иван Иванов'
+2025-11-23 18:24:25,370 - __main__ - INFO - Создан профиль пользователя: ivan@example.com
+2025-11-23 18:24:25,374 - __main__ - INFO - Попытка создания заказа: email=ivan@example.com, items=2
+2025-11-23 18:24:25,379 - __main__ - INFO - Заказ 46de2145-0b20-48f4-a799-499cbe9f40eb успешно создан: total=61.00, items=2
+2025-11-23 18:24:25,380 - __main__ - INFO - Заказ успешно создан: id=46de2145-0b20-48f4-a799-499cbe9f40eb, total=61.00
+2025-11-23 18:24:25,383 - __main__ - INFO - Создание заказа: user=2dc256cc-d0fd-4edb-b366-22f7245e8906, sku=PRODUCT2, qty=1
+2025-11-23 18:24:25,384 - __main__ - INFO - Заказ создан: user=2dc256cc-d0fd-4edb-b366-22f7245e8906, total=49.99
+2025-11-23 18:24:25,385 - __main__ - INFO - Попытка создания заказа: email=email, items=1
+2025-11-23 18:24:25,387 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+user_email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='email', input_type=str]
+2025-11-23 18:24:25,389 - __main__ - INFO - Попытка создания заказа: email=test@test.com, items=0
+2025-11-23 18:24:25,394 - __main__ - WARNING - Пустая корзина в заказе a8056c08-e099-4fc9-ae16-9baf9f04e0b3
+2025-11-23 18:24:25,398 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+  Value error, Корзина не может быть пустой [type=value_error, input_value={'user_email': 'test@test.com', 'items': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-11-23 18:24:35,165 - __main__ - INFO - Нормализовано имя: 'иванИванов' -> 'Иваниванов'
+2025-11-23 18:24:35,166 - __main__ - INFO - Создан профиль пользователя: ivan@example.com
+2025-11-23 18:24:35,169 - __main__ - INFO - Попытка создания заказа: email=ivan@example.com, items=2
+2025-11-23 18:24:35,194 - __main__ - INFO - Заказ 5f812142-c14a-489f-9037-93370751bd4e успешно создан: total=61.00, items=2
+2025-11-23 18:24:35,195 - __main__ - INFO - Заказ успешно создан: id=5f812142-c14a-489f-9037-93370751bd4e, total=61.00
+2025-11-23 18:24:35,198 - __main__ - INFO - Создание заказа: user=60c388e1-25c6-48d5-a525-20107d175ca0, sku=PRODUCT2, qty=1
+2025-11-23 18:24:35,199 - __main__ - INFO - Заказ создан: user=60c388e1-25c6-48d5-a525-20107d175ca0, total=49.99
+2025-11-23 18:24:35,201 - __main__ - INFO - Попытка создания заказа: email=email, items=1
+2025-11-23 18:24:35,209 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+user_email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='email', input_type=str]
+2025-11-23 18:24:35,220 - __main__ - INFO - Попытка создания заказа: email=test@test.com, items=0
+2025-11-23 18:24:35,255 - __main__ - WARNING - Пустая корзина в заказе 31d692e1-2818-409f-a4c8-57d3245e762f
+2025-11-23 18:24:35,265 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+  Value error, Корзина не может быть пустой [type=value_error, input_value={'user_email': 'test@test.com', 'items': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-11-23 18:24:43,518 - __main__ - INFO - Нормализовано имя: 'иван Иванов' -> 'Иван Иванов'
+2025-11-23 18:24:43,530 - __main__ - INFO - Создан профиль пользователя: ivan@example.com
+2025-11-23 18:24:43,532 - __main__ - INFO - Попытка создания заказа: email=ivan@example.com, items=2
+2025-11-23 18:24:43,535 - __main__ - INFO - Заказ 9e3bf0c9-94b6-4148-8342-85e5cb83bcac успешно создан: total=61.00, items=2
+2025-11-23 18:24:43,536 - __main__ - INFO - Заказ успешно создан: id=9e3bf0c9-94b6-4148-8342-85e5cb83bcac, total=61.00
+2025-11-23 18:24:43,538 - __main__ - INFO - Создание заказа: user=c861c1d6-797e-4dd9-be0b-69b09cf819e4, sku=PRODUCT2, qty=1
+2025-11-23 18:24:43,551 - __main__ - INFO - Заказ создан: user=c861c1d6-797e-4dd9-be0b-69b09cf819e4, total=49.99
+2025-11-23 18:24:43,553 - __main__ - INFO - Попытка создания заказа: email=email, items=1
+2025-11-23 18:24:43,554 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+user_email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='email', input_type=str]
+2025-11-23 18:24:43,555 - __main__ - INFO - Попытка создания заказа: email=test@test.com, items=0
+2025-11-23 18:24:43,564 - __main__ - WARNING - Пустая корзина в заказе 78be8b0c-9334-4231-a8a9-084fff685f8a
+2025-11-23 18:24:43,568 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+  Value error, Корзина не может быть пустой [type=value_error, input_value={'user_email': 'test@test.com', 'items': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-11-23 18:25:12,027 - __main__ - INFO - Нормализовано имя: 'иван Иванов' -> 'Иван Иванов'
+2025-11-23 18:25:12,030 - __main__ - INFO - Создан профиль пользователя: ivan@example.com
+2025-11-23 18:25:12,031 - __main__ - INFO - Попытка создания заказа: email=ivan@example.com, items=2
+2025-11-23 18:25:12,033 - __main__ - INFO - Заказ efea460e-ed9e-4de8-9f39-b667545e3bd1 успешно создан: total=61.00, items=2
+2025-11-23 18:25:12,099 - __main__ - INFO - Заказ успешно создан: id=efea460e-ed9e-4de8-9f39-b667545e3bd1, total=61.00
+2025-11-23 18:25:12,114 - __main__ - INFO - Создание заказа: user=7fede596-d0d3-44b9-be99-f7e1906b109b, sku=PRODUCT2, qty=1
+2025-11-23 18:25:12,117 - __main__ - INFO - Заказ создан: user=7fede596-d0d3-44b9-be99-f7e1906b109b, total=49.99
+2025-11-23 18:25:12,120 - __main__ - INFO - Попытка создания заказа: email=email, items=1
+2025-11-23 18:25:12,128 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+user_email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='email', input_type=str]
+2025-11-23 18:25:12,138 - __main__ - INFO - Попытка создания заказа: email=test@test.com, items=0
+2025-11-23 18:25:12,145 - __main__ - WARNING - Пустая корзина в заказе 80fee951-2e15-49d4-ba03-fd0f6532670c
+2025-11-23 18:25:12,150 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+  Value error, Корзина не может быть пустой [type=value_error, input_value={'user_email': 'test@test.com', 'items': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-11-23 18:25:44,184 - __main__ - INFO - Нормализовано имя: 'иван Иванов' -> 'Иван Иванов'
+2025-11-23 18:25:44,189 - __main__ - INFO - Создан профиль пользователя: ivan@example.com
+2025-11-23 18:25:44,191 - __main__ - INFO - Попытка создания заказа: email=ivan@example.com, items=2
+2025-11-23 18:25:44,193 - __main__ - INFO - Заказ 34d72d62-23a1-49d5-baf2-6e49c393f447 успешно создан: total=61.00, items=2
+2025-11-23 18:25:44,205 - __main__ - INFO - Заказ успешно создан: id=34d72d62-23a1-49d5-baf2-6e49c393f447, total=61.00
+2025-11-23 18:25:44,210 - __main__ - INFO - Создание заказа: user=aed00905-df93-438e-9735-8fae6c41b0b7, sku=PRODUCT2, qty=1
+2025-11-23 18:25:44,213 - __main__ - INFO - Заказ создан: user=aed00905-df93-438e-9735-8fae6c41b0b7, total=49.99
+2025-11-23 18:25:44,215 - __main__ - INFO - Попытка создания заказа: email=email, items=1
+2025-11-23 18:25:44,218 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+user_email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='email', input_type=str]
+2025-11-23 18:25:44,219 - __main__ - INFO - Попытка создания заказа: email=test@test.com, items=0
+2025-11-23 18:25:44,225 - __main__ - WARNING - Пустая корзина в заказе a87be10e-d8fd-4ce5-a9e1-87ad4d907675
+2025-11-23 18:25:44,234 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+  Value error, Корзина не может быть пустой [type=value_error, input_value={'user_email': 'test@test.com', 'items': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-11-23 18:25:55,332 - __main__ - INFO - Нормализовано имя: 'иван Иванов' -> 'Иван Иванов'
+2025-11-23 18:25:55,334 - __main__ - INFO - Создан профиль пользователя: ivan@example.com
+2025-11-23 18:25:55,336 - __main__ - INFO - Попытка создания заказа: email=ivan@example.com, items=2
+2025-11-23 18:25:55,349 - __main__ - INFO - Заказ 04ce6013-5e4f-4796-afa9-0fb6e32264d5 успешно создан: total=61.00, items=2
+2025-11-23 18:25:55,363 - __main__ - INFO - Заказ успешно создан: id=04ce6013-5e4f-4796-afa9-0fb6e32264d5, total=61.00
+2025-11-23 18:25:55,366 - __main__ - INFO - Создание заказа: user=ef3233a5-496d-4b82-ba93-9e2906ea585b, sku=PRODUCT2, qty=1
+2025-11-23 18:25:55,368 - __main__ - INFO - Заказ создан: user=ef3233a5-496d-4b82-ba93-9e2906ea585b, total=49.99
+2025-11-23 18:25:55,372 - __main__ - INFO - Попытка создания заказа: email=email, items=1
+2025-11-23 18:25:55,387 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+user_email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='email', input_type=str]
+2025-11-23 18:25:55,403 - __main__ - INFO - Попытка создания заказа: email=test@test.com, items=0
+2025-11-23 18:25:55,414 - __main__ - WARNING - Пустая корзина в заказе 1fa3aa93-0d09-4595-afc2-82e9da6dfd9a
+2025-11-23 18:25:55,416 - __main__ - WARNING - Ошибка валидации заказа: 1 validation error for Order
+  Value error, Корзина не может быть пустой [type=value_error, input_value={'user_email': 'test@test.com', 'items': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
