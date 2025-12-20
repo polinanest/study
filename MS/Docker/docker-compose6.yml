@@ -1,0 +1,23 @@
+services:
+  jupyter:
+    build: ./jupyter
+    ports:
+      - "9191:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    command: start-notebook.sh --NotebookApp.token=''
+
+  db:
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: polina
+      POSTGRES_PASSWORD: nesterovich
+      POSTGRES_DB: polina_nch
+
+volumes:  
+  pgdata:
+

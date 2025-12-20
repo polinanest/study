@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  postgres:
+  image: postgres:15
+  conteiner_name: local_postgres
+  restart: unless-stopped
+  environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: demo_db
+  ports:
+      - "55432:5432"
+  volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:

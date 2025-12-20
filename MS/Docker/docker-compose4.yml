@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  postgres:
+  image: mysql:8.0
+  conteiner_name: local_mysql
+  restart: unless-stopped
+  environment:
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+      MYSQL_DB: demo_db
+      MYSQL_DATABASE: mysql_db
+  ports:
+      - "8080:8080"
+  volumes:
+      - mysql_data:/var/lib/mysql/data
+
+volumes:
+  pg_data:
